@@ -48,8 +48,8 @@ class LoginScreen extends StatelessWidget {
                               Container(
                                 child: Image.asset(
                                   'asset/img/pamtion_icon.png',
-                                  width: 125,
-                                  height: 125,
+                                  width: 150,
+                                  height: 150,
                                 ),
                               ),
                               Text(
@@ -67,7 +67,7 @@ class LoginScreen extends StatelessWidget {
                       ],
                     ),
                   ),
-                  const SizedBox(height: 110),
+                  const SizedBox(height: 100),
                   Container(
                     width: 375,
                     height: 50,
@@ -109,7 +109,7 @@ class LoginScreen extends StatelessWidget {
                       ],
                     ),
                   ),
-                  const SizedBox(height: 24),
+                  const SizedBox(height: 22),
                   Container(
                     width: 375,
                     height: 50,
