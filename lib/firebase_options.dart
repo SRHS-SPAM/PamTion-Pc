@@ -17,7 +17,14 @@ import 'package:flutter/foundation.dart'
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
+<<<<<<< Updated upstream
       return web;
+=======
+      throw UnsupportedError(
+        'DefaultFirebaseOptions have not been configured for web - '
+        'you can reconfigure this by running the FlutterFire CLI again.',
+      );
+>>>>>>> Stashed changes
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
@@ -49,6 +56,7 @@ class DefaultFirebaseOptions {
     }
   }
 
+<<<<<<< Updated upstream
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: 'AIzaSyCXsq56jYHwtIt5EoMttroRq2l-d8EffCo',
     appId: '1:803759046672:web:eaa104985b36a388090a95',
@@ -59,12 +67,19 @@ class DefaultFirebaseOptions {
     measurementId: 'G-30KH7VF11F',
   );
 
+=======
+>>>>>>> Stashed changes
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyAyoEUv8mOIlXk86QFMDlcrizKntuebf6s',
     appId: '1:803759046672:ios:b303698cc40fa37c090a95',
     messagingSenderId: '803759046672',
     projectId: 'pamtion-f8f4c',
     storageBucket: 'pamtion-f8f4c.appspot.com',
+<<<<<<< Updated upstream
+=======
+    androidClientId: '803759046672-u6tutolb6fc2kr2nsac76r3i65112dpk.apps.googleusercontent.com',
+    iosClientId: '803759046672-ttpg7o9a21ckj9sgpskmogps0lq764l9.apps.googleusercontent.com',
+>>>>>>> Stashed changes
     iosBundleId: 'com.example.pamtionPc.RunnerTests',
   );
 }

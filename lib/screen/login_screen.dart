@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+<<<<<<< Updated upstream
+=======
+import 'package:pamtion_pc/component/google_button.dart';
+>>>>>>> Stashed changes
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({Key? key}) : super(key: key);
@@ -79,6 +83,7 @@ class LoginScreen extends StatelessWidget {
                     ),
                     child: Row(
                       children: [
+<<<<<<< Updated upstream
                         Container(
                           height: double.infinity,
                           padding: const EdgeInsets.symmetric(horizontal: 12),
@@ -106,6 +111,9 @@ class LoginScreen extends StatelessWidget {
                             ],
                           ),
                         ),
+=======
+                        GoogleButton(),
+>>>>>>> Stashed changes
                       ],
                     ),
                   ),
